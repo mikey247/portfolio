@@ -1,4 +1,5 @@
 import classes from "./Navbar.module.css";
+import { HashLink } from "react-router-hash-link";
 const NavBar = () => {
   return (
     <>
@@ -7,8 +8,18 @@ const NavBar = () => {
           <a href="/">Mikey24/7</a>
 
           <div className={classes.links}>
-            <a href="/">Contact</a>
-            <a href="/">Projects</a>
+            <HashLink to="#about" smooth>
+              About
+            </HashLink>
+
+            <HashLink to="#projects" smooth>
+              Projects
+            </HashLink>
+
+            <HashLink to="#contact" smooth>
+              Contact
+            </HashLink>
+
             <a href="/">Resume</a>
           </div>
         </div>
