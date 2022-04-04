@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "MERN Stack",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: '../components/blue.gif',
+        image: 'assets/blue.gif',
       link: "https://reactbootcamp.com",
       tools: ['react', 'django' , 'python', 'AWS S3', 'heroku']
     },
@@ -13,7 +13,7 @@ export const projects = [
       subtitle: "React and Python",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: '../components/blue.gif',
+        image: 'assets/blue.gif',
         link: "https://reedbarger.com",
       tools: ['react', 'django' , 'python', 'AWS S3', 'heroku']
     },
@@ -22,7 +22,7 @@ export const projects = [
       subtitle: "React and Firebase",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: '../components/blue.gif',
+        image: 'assets/green.gif',
       link: "https://jsbootcamp.com",
     tools: ['react', 'django' , 'python', 'AWS S3', 'heroku']
     },
@@ -31,7 +31,7 @@ export const projects = [
       subtitle: "React Hooks",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: '../components/blue.gif',  
+        image: 'assets/green.gif',  
        link: "https://pythonbootcamp.com",
     tools: ['react', 'django' , 'python', 'AWS S3', 'heroku']
     },
