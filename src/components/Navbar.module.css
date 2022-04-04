@@ -1,7 +1,13 @@
+.navContainer {
+  padding: 1.5rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #020a13;
+}
 nav {
   width: 90%;
   margin: auto;
-  padding: 1.5rem;
 }
 
 .navbar {
@@ -14,6 +20,10 @@ nav {
   color: #33a06f;
   font-size: 1.5rem;
   font-weight: 500;
+}
+.navbar a:hover,
+.navbar a:active {
+  color: white;
 }
 .links a {
   margin-right: 2rem;

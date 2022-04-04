@@ -3,12 +3,26 @@ body {
   color: whitesmoke;
 }
 .intro {
-  width: 70%;
+  width: 85%;
   margin: 0 auto;
   margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.intro div {
+  width: 30rem;
 }
 .intro h2 {
   color: #33a06f;
+}
+.intro button {
+  background-color: #33a06f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 3rem;
+  width: 10rem;
 }
 
 .glitch {
