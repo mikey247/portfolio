@@ -26,7 +26,7 @@ const About = () => {
           moving the other that way I can easily manipulate the system.
         </p>
 
-        <HashLink to="#contact">
+        <HashLink to="#contact" smooth>
           <p>Let's make magic🧙🏾‍♂️✨</p>
         </HashLink>
       </div>

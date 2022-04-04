@@ -25,13 +25,13 @@ const Contact = () => {
       <h1>Contact Me ✉</h1>
       <p>I’m interested in freelance,internship and entry-level opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.</p>
       <form ref={form} action="" onSubmit={sendEmail}>
-        <input type="text" name="name" className={classes.senderName} placeholder="Name" />
+        <input type="text" name="name" className={classes.senderName} placeholder="Name" required />
 
-        <input type="email" name="email" className={classes.email} placeholder="Your Email" />
+        <input type="email" name="email" className={classes.email} placeholder="Your Email" required />
         <br />
-        <input type="text" name="subject"className={classes.subject} placeholder="Subject" />
+        <input type="text" name="subject"className={classes.subject} placeholder="Subject" required />
         <br />
-        <textarea name="message"className={classes.message} cols="30" rows="10" placeholder="Your Message"/>
+        <textarea name="message"className={classes.message} cols="30" rows="10" placeholder="Your Message" required/>
         <br />
         <input type="submit" value="Send" className={classes.send} />
       </form>

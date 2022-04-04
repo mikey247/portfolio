@@ -1,0 +1,21 @@
+.projectCard{
+    padding: 1rem;
+    width: 20rem;
+    height: 28rem;
+    border-radius: 10px;
+}
+.projectCard a{
+    text-decoration: none;
+    color: #33a06f;
+}
+.projectCard img{
+    width: 20rem;
+    height: 12rem;
+}
+
+.tools{
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
