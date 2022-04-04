@@ -3,30 +3,36 @@ body {
   color: whitesmoke;
 }
 .intro {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 8rem;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
 .intro div {
   width: 30rem;
 }
 .intro h2 {
   color: #33a06f;
+  font-size: 2rem;
 }
 .intro button {
-  background-color: #33a06f;
-  color: white;
-  border: none;
-  border-radius: 5px;
+  background-color: #020a13;
+  color: #33a06f;
+  border: 2px solid #33a06f;
+  /* border-radius: 5px; */
   cursor: pointer;
   height: 3rem;
   width: 10rem;
 }
 
+.intro button:hover{
+  background-color: #33a06f;
+  color: white;
+}
+
 .glitch {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
   text-transform: uppercase;
   position: relative;

@@ -1,42 +1,41 @@
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+import classes from "./Contact.module.css";
+
 const Contact = () => {
+  
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_0pef553', 'template_jqs2oul', form.current, '65Jp6sba8Xy0J_h50')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      form.current.reset()
+ }
+
   return (
-    <div div id="contact">
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <p>
-        {" "}
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste dolore
-        laborum, quia velit qui amet aliquam rem eos ducimus, voluptatum, facere
-        blanditiis cumque doloribus praesentium non! Deserunt mollitia quo
-        optio?
-      </p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nulla
-      corporis esse? Molestias omnis dignissimos magni possimus sit id aliquid,
-      autem ipsam repudiandae sequi velit! Minima veritatis totam repellendus
-      et. Lorem ipsum dolor sit amet, consectetur adipisicing elit
-      <p>
-        t. Laborum quaerat ea, quas rerum enim accusamus minima eum itaque
-        adipisci nesciunt aut ex eius aliquid vel deleniti tempora repudiandae,
-        nisi sit optio minus consectetur commodi? Qui, autem iusto officiis
-        tenetur aperiam aliquam hic obcaecati eum quam animi. Iure debitis
-        reprehenderit pariatur?
-      </p>
-      <p>
-        rem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus
-        saepe cupiditate iure quasi ducimus? Similique numquam, assumenda
-        voluptate repudiandae excepturi cumque molestiae nam quae, impedit quis
-        eos eius vel expedita dicta distinctio adipisci accusamus sed officia
-        dolores? Suscipit maxime molestiae architecto inventore! Tenetur
-        blanditiis eos sint minima nesciunt modi temporibus a expedita fugiat
-        beatae. Libero velit iste ut, et, debitis dignissimos beatae temporibus
-        quas culpa perferendis consectetur dicta? Doloremque nemo odit nam hic
-        error tempora at maiores pariatur ipsum mollitia aliquam vero, amet iure
-        cupiditate dolores quod, dicta possimus? Sint, quo praesentium? Dolore
-        fugiat saepe quaerat quam corrupti totam!
-      </p>
+    <div className={classes.contactContainer} id="contact">
+      <div className={classes.contactForm}>
+      <h1>Contact Me ✉</h1>
+      <p>I’m interested in freelance,internship and entry-level opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.</p>
+      <form ref={form} action="" onSubmit={sendEmail}>
+        <input type="text" name="name" className={classes.senderName} placeholder="Name" />
+
+        <input type="email" name="email" className={classes.email} placeholder="Your Email" />
+        <br />
+        <input type="text" name="subject"className={classes.subject} placeholder="Subject" />
+        <br />
+        <textarea name="message"className={classes.message} cols="30" rows="10" placeholder="Your Message"/>
+        <br />
+        <input type="submit" value="Send" className={classes.send} />
+      </form>
+      </div>
     </div>
   );
 };

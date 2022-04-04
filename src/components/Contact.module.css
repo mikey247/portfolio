@@ -1,0 +1,38 @@
+
+
+.contactContainer{
+    width: 50%;
+    margin: auto;
+    padding: 5rem;
+}
+
+.contactForm h1, .contactForm p{
+    text-align: center;
+    color: #33a06f;
+}
+form{
+    padding: 1rem;
+}
+
+form input, textarea{
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    /* padding: .5rem .8rem .5rem .8rem; */
+    /* margin: .9vw 0 ; */
+    /* border:0; */
+    /* border-radius: 5px; */
+    font-size: 20px;
+}
+.send{
+    background-color: #020a13;
+    color: #33a06f;
+    border: 2px solid #33a06f;
+    width: 50%;
+    margin: auto;
+}
+.send:hover{
+    background-color: #33a06f;
+    color: white;
+}
