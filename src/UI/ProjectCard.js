@@ -11,8 +11,8 @@ const ProjectCard = (props) => {
             <h3> {props.title}</h3>
             <p>{props.description}</p>
           </a> 
-            <br />
-            <a href="/">deployed site</a>
+            
+            <a href={props.github}>GitHub</a>
             <div className={classes.tools}>
             {props.tools && props.tools.map(tool=> (
                 <p key={tool}>{tool}</p>

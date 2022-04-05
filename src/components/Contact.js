@@ -23,6 +23,7 @@ const Contact = () => {
     <div className={classes.contactContainer} id="contact">
       <div className={classes.contactForm}>
       <h1>Contact Me ✉</h1>
+      <hr className={classes.underline} />
       <p>I’m interested in freelance,internship and entry-level opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.</p>
       <form ref={form} action="" onSubmit={sendEmail}>
         <input type="text" name="name" className={classes.senderName} placeholder="Name" required />

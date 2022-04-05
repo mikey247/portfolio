@@ -1,9 +1,21 @@
 
 .projectList{
     width: 90%;
-    margin: auto;
+    margin: 5rem auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     /* gap: 3rem; */
+}
+
+.projects{
+    text-align: center;
+    color: #33a06f;
+}
+
+.underline{
+    width: 5rem;
+    height: 0.2rem;
+    background-color: white;
+    text-align: center;
 }

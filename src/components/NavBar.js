@@ -20,7 +20,7 @@ const NavBar = () => {
               Contact
             </HashLink>
 
-            <a href="/">Resume</a>
+            <a href="https://docs.google.com/document/d/1UYpYT6i4p2alhmIEaGkAQbKcPBktZ3MYsd7b2EGPlIo/edit?usp=sharing" >Resume</a>
           </div>
         </div>
       </nav>

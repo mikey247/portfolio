@@ -1,38 +1,38 @@
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Country-Frenzy",
+      github: "React",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: 'assets/blue.gif',
-      link: "https://reactbootcamp.com",
-      tools: ['react', 'django' , 'python', 'AWS S3', 'heroku']
+        image: 'assets/countryfrenzy.gif',
+      link: "https://mikey24-7.xyz/",
+      tools: ['React' , 'Rest API', 'JavaScript']
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Mike's Desk",
+      github: "React and Python",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: 'assets/blue.gif',
-        link: "https://reedbarger.com",
-      tools: ['react', 'django' , 'python', 'AWS S3', 'heroku']
+        image: 'assets/Mike-Desk.gif',
+        link: "https://mike-s-desk.herokuapp.com/",
+        tools: [ 'django' , 'python', 'AWS S3', 'heroku', 'CKEditor']
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Advice Generator",
+      github: "React and Firebase",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: 'assets/green.gif',
-      link: "https://jsbootcamp.com",
-    tools: ['react', 'django' , 'python', 'AWS S3', 'heroku']
+        image: 'assets/advice-generator.gif',
+        link: "https://mike-s-advice-generator.netlify.app/",
+        tools: ['JavaScript', 'Rest API','HTML', 'CSS']
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "TradExpress",
+      github: "React Hooks",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: 'assets/green.gif',  
-       link: "https://pythonbootcamp.com",
-    tools: ['react', 'django' , 'python', 'AWS S3', 'heroku']
+        image: 'assets/TradExpress.gif',  
+       link: "https://gallant-carson-667c21.netlify.app/",
+    tools: ['React','JavaScript', 'HTML', 'CSS']
     },
   ];

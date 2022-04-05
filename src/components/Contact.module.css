@@ -1,14 +1,18 @@
-
-
 .contactContainer{
     width: 50%;
     margin: auto;
-    padding: 5rem;
+    padding: 3rem;
 }
 
 .contactForm h1, .contactForm p{
     text-align: center;
     color: #33a06f;
+}
+.underline{
+    width: 5rem;
+    height: 0.2rem;
+    background-color: white;
+    text-align: center;
 }
 form{
     padding: 1rem;

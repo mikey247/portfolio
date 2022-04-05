@@ -7,10 +7,12 @@ const Projects = () => {
 
   return (
     <div id="projects">
-     <div className={classes.projectList}>
+       <h1 className={classes.projects} >Projects</h1>
+       <hr className={classes.underline} />
+      <div className={classes.projectList}>
         {projects && projects.map(project => (
           
-          <ProjectCard key={project.title} image={project.image}  description={project.description} title={project.title} link={project.link} tools={project.tools} /> )
+          <ProjectCard key={project.title} image={project.image}  description={project.description} title={project.title} link={project.link} tools={project.tools} github={project.github}/> )
         )}
      </div>
     </div>
