@@ -1,0 +1,23 @@
+footer{
+    background-color: #181818;
+}
+.footerdiv{
+    width: 90%;
+     margin: auto;
+    color: #33a06f;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.linksDiv{
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.linksDiv a{
+    /* width: 1rem; */
+    text-decoration: none;
+    color: #33a06f;
+}
