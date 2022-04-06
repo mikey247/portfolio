@@ -62,10 +62,17 @@ form input, textarea{
 
     form input{
         height: 3rem;
+        font-size: 2px;
+    }
+    input[type='text']{ font-size: 9px; } 
+
+    textarea{
+        font-size: 9px;
     }
 
+
     ::placeholder{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .send{
         height: 2.5rem;
