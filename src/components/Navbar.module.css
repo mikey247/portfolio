@@ -3,12 +3,12 @@
   position: -webkit-sticky;
   position: sticky;
   top: 3;
-  background-color: #020a13;
+  background-color: #020a13 !important;
 }
-nav {
+/* nav {
   width: 90%;
   margin: 0 auto;
-}
+} */
 
 .navbar {
   display: flex;

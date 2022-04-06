@@ -3,13 +3,14 @@
     width: 30rem;
     height: 28rem;
     border-radius: 10px;
+    margin: 2rem 0;
 }
 .projectCard a{
     text-decoration: none;
     color: #33a06f;
 }
 .projectCard img{
-    width: 30rem;
+    width: 28rem;
     height: 15rem;
 }
 
@@ -19,3 +20,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media (max-width: 426px) {
+    .projectCardContainer{
+        width: 90%;
+        margin: auto;
+    }
+    }
+    

@@ -2,13 +2,13 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import HomePage from "./components/HomePage";
-import NavBar from "./components/NavBar";
+import NavigationBar from "./components/NavBar";
 import Projects from "./components/Projects";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <NavigationBar />
       <HomePage />
       <About />
       <Projects />

@@ -1,6 +1,9 @@
 .aboutContainer {
   width: 90%;
   margin: 6rem auto;
+}
+.aboutContainerDiv{
+  /* display: flex; */
   display: flex;
   gap: 15rem;
 }
@@ -22,4 +25,43 @@
   height: 0.2rem;
   background-color: white; 
    /* text-align: center; */
+}
+
+
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  .aboutContainerDiv{
+    gap: 5rem;
+  }
+  .aboutContainer img{
+    width: 35rem;
+  }
+   
+  .aboutText p{
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .aboutContainer img{
+    width: 20rem;
+  }
+
+  .aboutContainer{
+    
+  }
+  .aboutContainerDiv{
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .aboutText{
+    width: 37rem;
+  }
+  .aboutText h1{
+    text-align: center;
+  }
 }

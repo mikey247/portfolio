@@ -1,7 +1,8 @@
-
 .projectList{
     width: 90%;
-    margin: 5rem auto;
+    margin: 2rem auto;
+}
+.projectListDiv{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -17,5 +18,24 @@
     width: 5rem;
     height: 0.2rem;
     background-color: white;
-    text-align: center;
+    /* text-align: center; */
+}
+
+
+@media (max-width: 426px) {
+    html {
+      font-size: 10px;
+    }
+    
+    .projectList{
+        /* width: 100%; */
+        display: block;
+    }
+
+    .projectListDiv{
+        width: 90%;
+        margin: auto;
+        /* padding: ; */
+
+    }
 }

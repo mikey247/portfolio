@@ -3,8 +3,7 @@ import classes from './ProjectCard.module.css'
 const ProjectCard = (props) => {
     // console.log(props.image);
     return ( 
-        <>
-        {console.log(props.image)}
+        <div className={classes.projectCardContainer}>
         <div className={classes.projectCard}>  
          <a href={props.link}>
          <img src={`${props.image}`} alt="" />
@@ -19,7 +18,7 @@ const ProjectCard = (props) => {
             ))}
             </div>
         </div>
-        </>
+        </div>
      );
 }
  

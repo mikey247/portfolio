@@ -1,6 +1,7 @@
 body {
   background-color: #020a13;
   color: whitesmoke;
+  border: 5px solid white;
 }
 .intro {
   width: 90%;
@@ -15,6 +16,8 @@ body {
 .intro h2 {
   color: #33a06f;
   font-size: 2rem;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
 }
 .intro button {
   background-color: #020a13;
@@ -116,4 +119,12 @@ body {
     transition-duration: 0s !important;
     transition-delay: 0s !important;
   }
+}
+
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+
 }

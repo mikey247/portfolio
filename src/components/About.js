@@ -1,9 +1,12 @@
 import classes from "./About.module.css";
 import { HashLink } from "react-router-hash-link";
+import Container from "react-bootstrap/Container"
+
 
 const About = () => {
   return (
     <div className={classes.aboutContainer} id="about">
+      <div  className={classes.aboutContainerDiv}>
       <div className={classes.aboutText}>
         <h1>ABOUT ME🙊🙉🙈</h1>
         <hr className={classes.underline}/>
@@ -32,6 +35,7 @@ const About = () => {
         </HashLink>
       </div>
       <img src={require("./green.gif")} alt="" />
+      </div>
     </div>
   );
 };

@@ -8,12 +8,12 @@
     text-align: center;
     color: #33a06f;
 }
-.underline{
+/* .underline{
     width: 5rem;
     height: 0.2rem;
     background-color: white;
     text-align: center;
-}
+} */
 form{
     padding: 1rem;
 }
@@ -40,3 +40,24 @@ form input, textarea{
     background-color: #33a06f;
     color: white;
 }
+
+
+@media (max-width: 769px) {
+    html {
+      font-size: 10px;
+    }
+    .contactContainer{
+        width: 70%;
+    }
+
+    .contactForm p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 426px) {
+    .contactContainer{
+        width: 90%;
+    }
+    }
+    
