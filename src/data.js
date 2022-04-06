@@ -5,7 +5,7 @@ export const projects = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: 'assets/countryfrenzy.gif',
-      link: "https://mikey24-7.xyz/",
+      link: "http://country-frenzy.netlify.app/",
       tools: ['React' , 'Rest API', 'JavaScript']
     },
     {
