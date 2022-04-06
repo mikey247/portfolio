@@ -26,6 +26,9 @@
   background-color: white; 
    /* text-align: center; */
 }
+.messi{
+  color: gold;
+}
 
 
 
@@ -65,10 +68,11 @@
   .aboutText{
     width: 37rem;
     line-height: 2rem;
+    padding-right: 2rem;
   }
   .aboutText p{
     font-size: 1.4rem;
-    text-align: center;
+    /* text-align: center; */
   }
   .aboutText h1{
     text-align: center;
@@ -85,6 +89,15 @@
   }
   .aboutText p{
     font-size: 1.3rem;
-    text-align: center;
+    /* text-align: center; */
   }
+}
+
+
+@media (max-width: 321px) {
+  .aboutText{
+    width: 30rem;
+    line-height: 2rem;
+  }
+
 }

@@ -18,7 +18,7 @@ const About = () => {
         <p>
           Well-organised person, problem solver, independent employee with high
           attention to detail.{" "}
-          <span className={classes.messi}>Messi Fan🐐</span>, NBA🏀 and
+          <span className={classes.messi}>Messi </span>Fan🐐, NBA🏀 and
           NFL🏈,Indoors person, Love movies🎬 and the occasional book📚. A
           easy-going person with management abilities and aspirations.
         </p>

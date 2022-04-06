@@ -18,7 +18,8 @@
     width: 20rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 7px;
+    /* justify-content: space-between; */
 }
 
 @media (max-width: 426px) {
@@ -26,11 +27,16 @@
         width: 90%;
         margin: auto;
     }
+
+    .projectCard{
+        margin-left: 1.2rem;
+     }
 }
 
 @media (max-width: 375px) {
 .projectCard{
    width: 26rem; 
+   /* margin-left: 2rem; */
 }
 .projectCard img{
     width: 24rem;
@@ -42,5 +48,12 @@
 @media (max-width: 321px) {
 .projectCardContainer{
     padding-right: 10rem;
+}
+.projectCard{
+    width: 20rem; 
+    /* margin-left: 0.7rem; */
+ }
+ .projectCard img{
+    width: 19rem;
 }
 }
