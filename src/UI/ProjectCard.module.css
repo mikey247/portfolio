@@ -26,5 +26,17 @@
         width: 90%;
         margin: auto;
     }
-    }
+}
+
+@media (max-width: 375px) {
+ 
+.projectCard{
+   width: 26rem; 
+}
+.projectCard img{
+    width: 24rem;
+}
+
+
     
+}    

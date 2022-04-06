@@ -57,7 +57,26 @@ form input, textarea{
 
 @media (max-width: 426px) {
     .contactContainer{
-        width: 90%;
+        width: 95%;
     }
+
+    form input, textarea{
+        height: 3rem;
     }
-    
+
+    ::placeholder{
+        font-size: 1rem;
+    }
+    .send{
+        height: 2.5rem;
+        width: 60%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .contactContainer{
+        width: 100%;
+    }  
+
+}
