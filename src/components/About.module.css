@@ -50,18 +50,41 @@
     width: 20rem;
   }
 
-  .aboutContainer{
+  /* .aboutContainer{
     
-  }
+  } */
+
   .aboutContainerDiv{
     display: block;
     width: 100%;
     margin: auto;
   }
+  .aboutContainer img{
+    display: none;
+  }
   .aboutText{
     width: 37rem;
+    line-height: 2rem;
+  }
+  .aboutText p{
+    font-size: 1.4rem;
+    text-align: center;
   }
   .aboutText h1{
+    text-align: center;
+  }
+  .underline{
+    display: none;
+  }
+}
+
+@media (max-width: 376px) {
+  .aboutText{
+    width: 33rem;
+    line-height: 2rem;
+  }
+  .aboutText p{
+    font-size: 1.3rem;
     text-align: center;
   }
 }

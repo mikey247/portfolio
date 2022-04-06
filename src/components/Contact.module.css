@@ -62,9 +62,10 @@ form input, textarea{
 
     form input{
         height: 3rem;
-        font-size: 2px;
+        /* font-size: 2px; */
     }
     input[type='text']{ font-size: 9px; } 
+    input[type='email']{ font-size: 9px; } 
 
     textarea{
         font-size: 9px;

@@ -21,3 +21,26 @@ footer{
     text-decoration: none;
     color: #33a06f;
 }
+
+
+@media (max-width: 425px) {
+
+.footerdiv{
+    width: 38rem;
+    align-items: center;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+.linksDiv{
+    width:5rem;
+    padding-top: 0rem;
+}
+
+.linksDiv a{
+    padding-right: 3px;
+}
+
+}
