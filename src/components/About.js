@@ -1,6 +1,6 @@
 import classes from "./About.module.css";
 import { HashLink } from "react-router-hash-link";
-import Container from "react-bootstrap/Container"
+// import Container from "react-bootstrap/Container"
 
 
 const About = () => {

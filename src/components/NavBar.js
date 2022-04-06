@@ -1,5 +1,5 @@
-import classes from "./Navbar.module.css";
-import { HashLink } from "react-router-hash-link";
+// import classes from "./Navbar.module.css";
+// import { HashLink } from "react-router-hash-link";
 import Navbar from "react-bootstrap/Navbar"
 import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav"
