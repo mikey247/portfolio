@@ -1,5 +1,5 @@
 import classes from './ProjectCard.module.css'
-import Col from 'react-bootstrap/Col'
+// import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 
 const ProjectCard = (props) => {
