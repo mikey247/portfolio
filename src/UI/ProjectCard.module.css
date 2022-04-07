@@ -1,9 +1,11 @@
+
 .projectCard{
     padding: 1rem;
     width: 30rem;
-    height: 28rem;
+    height: 30rem;
     border-radius: 10px;
     margin: 2rem 0;
+    border: 7px solid brown;
 }
 .projectCard a{
     text-decoration: none;
@@ -19,24 +21,76 @@
     display: flex;
     flex-wrap: wrap;
     gap: 7px;
-    /* justify-content: space-between; */
 }
+.tools p{
+    font-size: 12px;
+    color: #33a06f;
+    border: 1px solid #33a06f;
+    padding: 2px;
+    /* background-color: gainsboro; */
+}
+.gitHub p{
+    text-decoration: underline;
+} 
 
+@media (max-width: 768px) {
+    .projectCard{
+        width: 50rem;
+        height: 45rem;
+    }
+    .projectCard img{
+        width: 47rem;
+        height: 23rem;
+    }
+    .projectCard p{
+        font-size: 15px;
+    }
+    .tools p{
+        font-size: 12px;
+        color: #33a06f;
+        border: 1px solid #33a06f;
+        padding: 2px;
+        /* background-color: gainsboro; */
+    }
+}
+@media (max-width: 426px) {
+    .projectCard{
+        width: 37rem;
+        height: 50rem;
+    }
+    .projectCard img{
+        width: 34rem;
+    }
+}
+@media (max-width: 375px) {
+    .projectCard{
+        width: 32rem;
+    }
+    .projectCard img{
+        width: 28rem;
+    }
+}
+@media (max-width: 320px) {
+    .projectCard{
+        width: 27rem;
+    }
+    .projectCard img{
+        width: 23rem;
+        height: 20rem;
+    }
+}
+/* 
 @media (max-width: 426px) {
     .projectCardContainer{
         width: 90%;
         margin: auto;
     }
 
-    .projectCard{
-        /* margin-left: 1.2rem; */
-     }
 }
 
 @media (max-width: 375px) {
 .projectCard{
    width: 26rem; 
-   /* margin-left: 2rem; */
 }
 .projectCard img{
     width: 24rem;
@@ -51,9 +105,8 @@
 }
 .projectCard{
     width: 20rem; 
-    /* margin-left: 0.7rem; */
  }
  .projectCard img{
     width: 19rem;
 }
-}
+} */
