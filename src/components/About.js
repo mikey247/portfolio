@@ -10,7 +10,7 @@ const About = () => {
       <div className={classes.aboutText}>
         <h1>ABOUT ME🙊🙉🙈</h1>
         <hr className={classes.underline}/>
-        <p>
+        <p> 
           I’m a Full-stack Developer located in Lagos. I have a serious passion
           for user-centric design, development and dynamic user experiences on
           both backend and frontend.

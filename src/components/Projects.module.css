@@ -1,7 +1,8 @@
-.projectList{
+/* .projectList{
     width: 85%;
     margin: 2rem auto;
     border: 7px solid green;
+    
 
 }
 .projectListDiv{
@@ -10,13 +11,13 @@
     grid-gap: 3rem;
     border: 5px solid gold;
     
-}
+} */
 .projects{
     text-align: center;
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .projectList{
         width: 70%;
     }
@@ -29,7 +30,7 @@
     .projectList{
         width: 95%;
     }
-}
+} */
 /* 
 .projects{
     text-align: center;

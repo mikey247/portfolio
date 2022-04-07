@@ -1,11 +1,9 @@
 
 .projectCard{
-    padding: 1rem;
-    width: 30rem;
+    padding:3rem;
     height: 30rem;
     border-radius: 10px;
-    margin: 2rem 0;
-    border: 7px solid brown;
+   
 }
 .projectCard a{
     text-decoration: none;
@@ -27,13 +25,12 @@
     color: #33a06f;
     border: 1px solid #33a06f;
     padding: 2px;
-    /* background-color: gainsboro; */
 }
 .gitHub p{
     text-decoration: underline;
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .projectCard{
         width: 50rem;
         height: 45rem;
@@ -43,14 +40,13 @@
         height: 23rem;
     }
     .projectCard p{
-        font-size: 15px;
+        font-size: 13px;
     }
     .tools p{
         font-size: 12px;
         color: #33a06f;
         border: 1px solid #33a06f;
-        padding: 2px;
-        /* background-color: gainsboro; */
+        padding: 2px; 
     }
 }
 @media (max-width: 426px) {
@@ -67,7 +63,7 @@
         width: 32rem;
     }
     .projectCard img{
-        width: 28rem;
+        width: 30rem;
     }
 }
 @media (max-width: 320px) {
