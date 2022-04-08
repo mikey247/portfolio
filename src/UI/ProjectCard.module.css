@@ -1,5 +1,5 @@
 
-.projectCard{
+/* .projectCard{
     padding:3rem;
     height: 30rem;
     border-radius: 10px;
@@ -12,7 +12,7 @@
 .projectCard img{
     width: 28rem;
     height: 15rem;
-}
+} */
 
 .tools{
     width: 20rem;
@@ -26,11 +26,30 @@
     border: 1px solid #33a06f;
     padding: 2px;
 }
+
+.cardImage{
+    opacity: 5;
+}
 .gitHub p{
     text-decoration: underline;
 } 
 
-@media (max-width: 769px) {
+.projectCard{
+    margin-top: 4rem;
+    color: #33a06f;
+}
+.text{
+    color: #33a06f;
+    padding: 1rem;
+    /* padding-left: 1rem; */
+    /* border: 2px solid darkblue; */
+}
+.text a{
+    text-decoration: none;
+    color: #33a06f;
+    /* padding-left: 5rem; */
+}
+/* @media (max-width: 769px) {
     .projectCard{
         width: 50rem;
         height: 45rem;
@@ -74,7 +93,7 @@
         width: 23rem;
         height: 20rem;
     }
-}
+} */
 /* 
 @media (max-width: 426px) {
     .projectCardContainer{

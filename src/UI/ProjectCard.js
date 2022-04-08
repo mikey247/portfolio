@@ -24,24 +24,26 @@ const ProjectCard = (props) => {
         // </div>
         // </div>
 
-<Card className="bg-dark text-white">
-    <Card.Img src={`${props.image}`} alt="Card image" />
-  <a href={props.link}>
-   <Card.ImgOverlay>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text>{props.description}</Card.Text>
-        <Card.Text>
+      <div className={classes.projectCard}>
+          <Card className="bg-dark text-white">
+            <Card.Img src={`${props.image}`} alt="Card image"  className={classes.cardImage}/>
+      <div className={classes.text}>
+       <a href={props.link}>
+          <Card.ImgOverlay opacity={1} >
+         </Card.ImgOverlay >
+           <h3>{props.title}</h3>
+           <p>{props.description}</p>
         <div className={classes.tools}>
-        {props.tools && props.tools.map(tool=> (
-            <p key={tool}>{tool}</p>
-        ))}
+            {props.tools && props.tools.map(tool=> (
+                <p key={tool}>{tool}</p>
+            ))}
         </div>
-        </Card.Text>
-       <Card.Text> <a className={classes.gitHub} href={props.github}><p>GitHub Link</p></a></Card.Text>
-
-   </Card.ImgOverlay>
-   </a> 
+       {/* <a href='/'>GitHub</a> */}
+      </a> 
+      <br />
+  </div>
 </Card>
+      </div>
      );
 }
  
