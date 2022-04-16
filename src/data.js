@@ -1,4 +1,13 @@
 export const projects = [
+  {
+    title: "Mike's Meals",
+    github: "React",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: 'assets/mikemeals.gif',
+    link: "https://calm-pithivier-b7e775.netlify.app/",
+    tools: ['React' , 'Context-API','useReducer' ,'CSS Modules']
+  },
     {
       title: "Country-Frenzy",
       github: "React",
