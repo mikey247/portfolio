@@ -5,7 +5,7 @@ body {
 .intro {
   width: 90%;
   margin: 0 auto;
-  margin-top: 8rem;
+  margin-top: 5rem;
   /* display: flex;
   justify-content: space-between; */
 }
@@ -31,6 +31,10 @@ body {
 .intro button:hover {
   background-color: #33a06f;
   color: white;
+}
+
+.heroLinks a {
+  color: #33a06f;
 }
 
 .glitch {

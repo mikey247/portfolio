@@ -24,7 +24,7 @@ export const projects = [
       "A personal blog I built whilst dabbling in Django, comes with a database, administration panel and comment system for user interaction and static files hosted on AWS S3  ",
     image: "assets/Mike-Desk.gif",
     link: "https://mike-s-desk.herokuapp.com/",
-    tools: ["django", "python", "AWS S3", "heroku", "CKEditor", "SQLite"],
+    tools: ["django", "python", "AWS S3", "heroku", "CKEditor"],
   },
   {
     title: "Advice Generator",

@@ -1,12 +1,13 @@
-.contactContainer{
-    width: 50%;
-    margin: auto;
-    padding: 3rem;
+.contactContainer {
+  width: 50%;
+  margin: auto;
+  padding: 3rem;
 }
 
-.contactForm h1, .contactForm p{
-    text-align: center;
-    color: #33a06f;
+.contactForm h1,
+.contactForm p {
+  text-align: center;
+  color: #33a06f;
 }
 /* .underline{
     width: 5rem;
@@ -14,77 +15,89 @@
     background-color: white;
     text-align: center;
 } */
-form{
-    padding: 1rem;
+form {
+  padding: 1rem;
 }
 
-form input, textarea{
-    display: block;
-    width: 100%;
-    margin-top: 1rem;
-    padding: 0.5rem;
-    /* padding: .5rem .8rem .5rem .8rem; */
-    /* margin: .9vw 0 ; */
-    /* border:0; */
-    /* border-radius: 5px; */
-    font-size: 20px;
+form input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  /* padding: .5rem .8rem .5rem .8rem; */
+  /* margin: .9vw 0 ; */
+  /* border:0; */
+  /* border-radius: 5px; */
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
 }
-.send{
-    background-color: #020a13;
-    color: #33a06f;
-    border: 2px solid #33a06f;
-    width: 50%;
-    margin: auto;
+.send {
+  background-color: #020a13;
+  color: #33a06f;
+  border: 2px solid #33a06f;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
 }
-.send:hover{
-    background-color: #33a06f;
-    color: white;
+.send:hover {
+  background-color: #33a06f;
+  color: white;
 }
-
+.modal {
+  background-color: #020a13;
+}
+.buttonText {
+  color: #33a06f;
+  text-align: center;
+}
 
 @media (max-width: 769px) {
-    html {
-      font-size: 10px;
-    }
-    .contactContainer{
-        width: 70%;
-    }
+  html {
+    font-size: 10px;
+  }
+  .contactContainer {
+    width: 70%;
+  }
 
-    .contactForm p{
-        font-size: 16px;
-    }
+  .contactForm p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 426px) {
-    .contactContainer{
-        width: 95%;
-    }
+  .contactContainer {
+    width: 95%;
+  }
 
-    form input{
-        height: 3rem;
-        /* font-size: 2px; */
-    }
-    input[type='text']{ font-size: 9px; } 
-    input[type='email']{ font-size: 9px; } 
+  form input {
+    height: 3rem;
+    /* font-size: 2px; */
+  }
+  input[type="text"] {
+    font-size: 9px;
+  }
+  input[type="email"] {
+    font-size: 9px;
+  }
 
-    textarea{
-        font-size: 9px;
-    }
+  textarea {
+    font-size: 9px;
+  }
 
-
-    ::placeholder{
-        font-size: 0.8rem;
-    }
-    .send{
-        height: 2.5rem;
-        width: 60%;
-        font-size: 1rem;
-    }
+  ::placeholder {
+    font-size: 0.8rem;
+  }
+  .send {
+    height: 2.5rem;
+    width: 60%;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 376px) {
-    .contactContainer{
-        width: 100%;
-    }  
-
+  .contactContainer {
+    width: 100%;
+  }
 }

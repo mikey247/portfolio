@@ -7,7 +7,7 @@ import classes from "./HomePage.module.css";
 
 const NavigationBar = () => {
   return (
-    <div className={classes.body}>
+    <div className={classes.navBar}>
       {/* <div className={classes.navContainer}>
       <nav>
         <div className={classes.navbar}>
@@ -25,8 +25,8 @@ const NavigationBar = () => {
             <HashLink to="#contact" smooth>
               Contact
             </HashLink>
-
-            <a href="https://docs.google.com/document/d/1UYpYT6i4p2alhmIEaGkAQbKcPBktZ3MYsd7b2EGPlIo/edit?usp=sharing" >Resume</a>
+<a href="https://docs.google.com/document/d/1UYpYT6i4p2alhmIEaGkAQbKcPBktZ3MYsd7b2EGPlIo/edit?usp=sharing" >Resume</a>
+            
           </div>
         </div>
       </nav>
@@ -44,13 +44,19 @@ const NavigationBar = () => {
             <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link href="#about">
-                <h2>About</h2>
+                <h3>About</h3>
               </Nav.Link>
               <Nav.Link href="#projects">
-                <h2>Projects</h2>
+                <h3>Projects</h3>
               </Nav.Link>
               <Nav.Link href="#contact">
-                <h2>Contact</h2>
+                <h3>Contact</h3>
+              </Nav.Link>
+              <Nav.Link
+                href="https://docs.google.com/document/d/1UYpYT6i4p2alhmIEaGkAQbKcPBktZ3MYsd7b2EGPlIo/edit?usp=sharing"
+                target="_blank"
+              >
+                <h3>Resume </h3>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
