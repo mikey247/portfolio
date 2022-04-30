@@ -12,10 +12,15 @@
     border: 5px solid gold;
     
 } */
-.projects{
-    text-align: center;
+.projects {
+  text-align: center;
 }
 
+@media (max-width: 768px) {
+  /* .projectItems {
+    margin-bottom: 15rem;
+  } */
+}
 
 /* @media (max-width: 768px) {
     .projectList{
@@ -65,4 +70,3 @@
       font-size: 8px;
   }
 } */
-    

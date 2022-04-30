@@ -28,7 +28,7 @@ body {
   width: 10rem;
 }
 
-.intro button:hover{
+.intro button:hover {
   background-color: #33a06f;
   color: white;
 }
@@ -120,10 +120,8 @@ body {
   }
 }
 
-
 @media (max-width: 768px) {
   html {
     font-size: 10px;
   }
-
 }

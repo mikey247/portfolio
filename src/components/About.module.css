@@ -2,7 +2,7 @@
   width: 90%;
   margin: 6rem auto;
 }
-.aboutContainerDiv{
+.aboutContainerDiv {
   /* display: flex; */
   display: flex;
   gap: 15rem;
@@ -20,36 +20,34 @@
   font-size: 1.2rem;
   font-weight: 500;
 }
-.underline{
+.underline {
   width: 15rem;
   height: 0.2rem;
-  background-color: white; 
-   /* text-align: center; */
+  background-color: white;
+  /* text-align: center; */
 }
-.messi{
+.messi {
   color: gold;
 }
-
-
 
 @media (max-width: 768px) {
   html {
     font-size: 10px;
   }
-  .aboutContainerDiv{
+  .aboutContainerDiv {
     gap: 5rem;
   }
-  .aboutContainer img{
+  .aboutContainer img {
     width: 35rem;
   }
-   
-  .aboutText p{
+
+  .aboutText p {
     font-size: 1.2rem;
   }
 }
 
 @media (max-width: 426px) {
-  .aboutContainer img{
+  .aboutContainer img {
     width: 20rem;
   }
 
@@ -57,47 +55,42 @@
     
   } */
 
-  .aboutContainerDiv{
+  .aboutContainerDiv {
     display: block;
     width: 100%;
     margin: auto;
   }
-  .aboutContainer img{
+  .aboutContainer img {
     display: none;
   }
-  .aboutText{
+  .aboutText {
     width: 37rem;
     line-height: 2rem;
     padding-right: 2rem;
   }
-  .aboutText p{
+  .aboutText p {
     font-size: 1.4rem;
     /* text-align: center; */
   }
-  .aboutText h1{
-    /* text-align: center; */
-  }
-  .underline{
+  .underline {
     display: none;
   }
 }
 
 @media (max-width: 376px) {
-  .aboutText{
+  .aboutText {
     width: 33rem;
     line-height: 2rem;
   }
-  .aboutText p{
+  .aboutText p {
     font-size: 1.3rem;
     /* text-align: center; */
   }
 }
 
-
 @media (max-width: 321px) {
-  .aboutText{
+  .aboutText {
     width: 30rem;
     line-height: 2rem;
   }
-
 }
