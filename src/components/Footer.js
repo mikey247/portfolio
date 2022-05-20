@@ -43,7 +43,7 @@ const Footer = () => (
           <h3 className="text-uppercase">Mikey24/7</h3>
         </div>
 
-        <hr className="clearfix w-100 d-md-none pb-0" />
+        {/* <hr className="clearfix w-100 d-md-none pb-0" /> */}
 
         <div className={`col-md-12 mt-md-0 mt-3 ${classes.footerDiv}`}>
           <h3 className="text-uppercase">
@@ -51,7 +51,7 @@ const Footer = () => (
           </h3>
         </div>
 
-        <hr className="clearfix w-100 d-md-none pb-0" />
+        {/* <hr className="clearfix w-100 d-md-none pb-0" /> */}
 
         <div className={`col-md-12 mt-md-0 mt-3 ${classes.footerDiv}`}>
           <div className={classes.linksDiv}>
