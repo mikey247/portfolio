@@ -90,9 +90,14 @@ textarea {
     font-size: 0.8rem;
   }
   .send {
+    font-size: 12px;
+    padding-bottom: 2.5rem;
+  }
+  .send input {
     height: 2.5rem;
     width: 60%;
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    padding: 2rem;
   }
 }
 

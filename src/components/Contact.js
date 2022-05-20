@@ -84,6 +84,7 @@ const Contact = () => {
             />
             <br />
             <input type="submit" value="Send" className={classes.send} />
+            {/* <button className={classes.send}>submit</button> */}
           </form>
         </div>
       </div>

@@ -1,12 +1,27 @@
 export const projects = [
   {
+    title: "Todo Buddy",
+    github: "React",
+    description:
+      "A todo list app with sign-up/sign-in capabilities using firebase email and password authentication with data stored on firestore database",
+    image: "assets/todo-buddy.gif",
+    link: "https://todo-buddy.netlify.app/",
+    tools: [
+      "React",
+      "Context-API",
+      "Firestore",
+      "CSS Modules",
+      "Firebase Auth",
+    ],
+  },
+  {
     title: "Mike's Meals",
     github: "React",
     description:
       "A food order app with an interactive cart, I made use of React tools such as useContext anssd useReducer to be able pass and manipulate state through out the appplication ",
     image: "assets/mikemeals.gif",
     link: "https://calm-pithivier-b7e775.netlify.app/",
-    tools: ["React", "Context-API", "useReducer", "CSS Modules"],
+    tools: ["React", "Context-API", "useReducer", "CSS Modules", "Firebase"],
   },
   {
     title: "Country-Frenzy",
