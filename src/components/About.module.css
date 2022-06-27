@@ -14,11 +14,21 @@
 .aboutText h1 {
   color: #33a06f;
 }
-.aboutText a {
+.magic {
   text-decoration: none;
   color: #33a06f;
   font-size: 1.2rem;
   font-weight: 500;
+}
+.resume {
+  text-decoration: none;
+  color: #33a06f;
+  font-weight: 500;
+}
+.resume:hover,
+.magic:hover {
+  text-decoration: underline;
+  color: gold;
 }
 .underline {
   width: 15rem;
