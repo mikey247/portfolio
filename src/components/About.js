@@ -17,7 +17,7 @@ const About = () => {
               href="https://docs.google.com/document/d/1UYpYT6i4p2alhmIEaGkAQbKcPBktZ3MYsd7b2EGPlIo/edit?usp=sharing"
               className={classes.resume}
             >
-              <span>Resume</span>
+              <span>resume</span>
             </a>
           </p>
           <p>
