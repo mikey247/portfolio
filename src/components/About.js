@@ -33,7 +33,10 @@ const About = () => {
             joy and satisfaction from bringing ideas and designs to life, I
             learn by understanding the system and obsessed with knowing what
             part is moving the other that way I can easily manipulate the
-            system.
+            system. I write sometimes, check out some of my{" "}
+            <a href="https://dev.to/mikey247" className={classes.resume}>
+              <span>articles</span>
+            </a>
           </p>
 
           <HashLink to="#contact" smooth className={classes.magic}>
