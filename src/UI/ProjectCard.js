@@ -1,6 +1,7 @@
 import classes from "./ProjectCard.module.css";
 // import Col from 'react-bootstrap/Col'
 import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 
 const ProjectCard = (props) => {
   // console.log(props.image);
@@ -34,14 +35,14 @@ const ProjectCard = (props) => {
       <div className={classes.text}>
         <a href={props.link}>
           <Card.ImgOverlay opacity={1}></Card.ImgOverlay>
-          <h2>{props.title}</h2>
-          <h6>{props.description}</h6>
-          <div className={classes.tools}>
-            {props.tools && props.tools.map((tool) => <p key={tool}>{tool}</p>)}
-          </div>
-          {/* <a href='/'>GitHub</a> */}
         </a>
-        <br />
+        <h2>{props.title}</h2>
+        <h6>{props.description}</h6>
+        <div className={classes.tools}>
+          {props.tools && props.tools.map((tool) => <p key={tool}>{tool}</p>)}
+        </div>
+
+        {/* <a href={props.github}>Github Link</a> */}
       </div>
     </Card>
     // </div>
