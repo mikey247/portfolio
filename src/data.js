@@ -3,7 +3,7 @@ export const projects = [
     title: "NATOURS.(under-construction🔨)",
     github: "https://github.com/mikey247/Natours-React",
     description:
-      "A tour/vacation business for lovers of nature.This React app compliments an API built by myself with Nodejs/Express",
+      "A tour/vacation business for lovers of nature.This React app compliments an API built by myself with Nodejs/Express, Redux toolkit will be used for state management and JWT authentication will be implemented",
     image: "assets/natours.gif",
     link: "https://natours-explore.netlify.app",
     tools: ["React", "CSS Modules"],
