@@ -1,9 +1,17 @@
 export const projects = [
   {
+    title: "NATOURS.(under-construction🔨)",
+    github: "https://github.com/mikey247/Natours-React",
+    description:
+      "A tour/vacation business for lovers of nature.This React app compliments an API built by myself with Nodejs/Express",
+    image: "assets/natours.gif",
+    link: "https://natours-explore.netlify.app",
+    tools: ["React", "CSS Modules"],
+  },
+  {
     title: "THE STORE.",
     github: "https://github.com/mikey247/THE_STORE.",
-    description:
-      "A todo list app with sign-up/sign-in capabilities using firebase email and password authentication with data stored on firestore database",
+    description: "An online clothing store for trendy fashion.",
     image: "assets/theStore.gif",
     link: "http://thee-store.netlify.app/",
     tools: ["React", "Styled-Components", "CSS Modules"],
