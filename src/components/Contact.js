@@ -65,7 +65,7 @@ const Contact = () => {
               placeholder="Your Email"
               required
             />
-            <br />
+            {/* <br /> */}
             <input
               type="text"
               name="subject"
@@ -73,7 +73,7 @@ const Contact = () => {
               placeholder="Subject"
               required
             />
-            <br />
+            {/* <br /> */}
             <textarea
               name="message"
               className={classes.message}
@@ -82,7 +82,7 @@ const Contact = () => {
               placeholder="Your Message"
               required
             />
-            <br />
+            {/* <br /> */}
             <input type="submit" value="Send" className={classes.send} />
             {/* <button className={classes.send}>submit</button> */}
           </form>
