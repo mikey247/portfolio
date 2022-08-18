@@ -36,7 +36,7 @@ const ProjectCard = (props) => {
         <a href={props.link}>
           <Card.ImgOverlay opacity={1}></Card.ImgOverlay>
         </a>
-        <h2>{props.title}</h2>
+        <h3>{props.title}</h3>
         <h6>{props.description}</h6>
         <div className={classes.tools}>
           {props.tools && props.tools.map((tool) => <p key={tool}>{tool}</p>)}

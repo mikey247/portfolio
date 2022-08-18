@@ -82,7 +82,8 @@ const Contact = () => {
               placeholder="Your Message"
               required
             />
-            {/* <br /> */}
+            <br />
+            <br />
             <input type="submit" value="Send" className={classes.send} />
             {/* <button className={classes.send}>submit</button> */}
           </form>
