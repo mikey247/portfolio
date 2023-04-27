@@ -45,7 +45,7 @@ const Contact = () => {
           <h1>Contact Me ✉</h1>
           <hr className={classes.underline} />
           <p>
-            I’m interested in freelance,internship and entry-level opportunities
+            I’m interested in freelance, junior roles and contract opportunities
             – especially ambitious or large projects. However, if you have other
             request or question, don’t hesitate to use the form.
           </p>

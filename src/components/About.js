@@ -15,6 +15,7 @@ const About = () => {
             experiences on both backend and frontend. Here's my{" "}
             <a
               href="https://docs.google.com/document/d/1UYpYT6i4p2alhmIEaGkAQbKcPBktZ3MYsd7b2EGPlIo/edit?usp=sharing"
+              download={true}
               className={classes.resume}
             >
               <span>resume</span>
