@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: "HOSTEL GURU",
+    github: "https://github.com/mikey247",
+    description:
+      "A hostel management platform for student accommodations across the country with Nodejs, which handles room booking, rent payments, room orders, room management, and tenant management.",
+    image: "assets/hostel-guru.gif",
+    link: "https://hostelguru.ng/",
+    tools: ["Next.js", "React.js", "CSS Modules", "Nodejs", "Express"],
+  },
+  {
+    title: "LINQMAN",
+    github: "https://github.com/mikey247",
+    description:
+      "A subscription-based social media reference app (Linqman) with over 2,000 active users, It allows users to have all their social/business links in one place",
+    image: "assets/linqman.gif",
+    link: "https://linqman.com",
+    tools: ["Next.js", "React.js", "CSS Modules", "Nodejs", "Express"],
+  },
+  {
     title: "NATOURS.(under-construction🔨)",
     github: "https://github.com/mikey247/Natours-React",
     description:

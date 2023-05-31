@@ -11,16 +11,20 @@ const HomePage = () => {
         Mike Umeokoli 👨🏾‍💻
         <span aria-hidden="true"> Mike Umeokoli</span>
       </h1>
-      <h2>Full-stack web developer</h2>
+      <h2>Software Engineer</h2>
       <div className={classes.heroLinks}>
-        <a href="https://linkedin.com/in/michael-umeokoli-8780">
+        <a
+          href="https://linkedin.com/in/michael-umeokoli"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin size="3rem" />
         </a>{" "}
-        <a href="https://github.com/mikey247">
+        <a href="https://github.com/mikey247" target="_blank" rel="noreferrer">
           {" "}
           <FaGithub size="3rem" />
         </a>
-        <a href="https://wa.me/+2348109867870">
+        <a href="https://wa.me/+2348109867870" target="_blank" rel="noreferrer">
           <FaWhatsappSquare size="3rem" />{" "}
         </a>
       </div>
