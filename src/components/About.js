@@ -47,7 +47,7 @@ const About = () => {
             <p>Let's make magic🧙🏾‍♂️✨</p>
           </HashLink>
         </div>
-        <img src={require("./green.gif")} alt="" />
+        <img src={require("./green.gif")} alt="Decorative green animation" />
       </div>
     </div>
   );
