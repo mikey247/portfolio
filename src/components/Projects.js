@@ -14,6 +14,7 @@ const Projects = () => {
           {projects &&
             projects.map((project) => (
               <Col
+                key={project.title}
                 sm={12}
                 xl={6}
                 lg={6}
