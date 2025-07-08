@@ -12,6 +12,7 @@ const HomePage = () => {
         <span aria-hidden="true"> Mike Umeokoli</span>
       </h1>
       <h2>Software and AI Engineer</h2>
+
       <p className={classes.tagline}>Building the future, one line at a time</p>
       <div className={classes.heroLinks}>
         <a
