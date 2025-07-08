@@ -11,35 +11,19 @@ const About = () => {
           <hr className={classes.underline} />
           <p>
             I’m a Software and AI Engineer based in Manchester and currently
-            completing an MSc in Computer Science at Manchester Metropolitan
-            University. My work focuses on NLP, recommender systems and cloud
-            development. Here's my{" "}
-            <a
-              href="https://docs.google.com/document/d/1cfmfENqLZVctN3yGNY52mFLM0Tp-vcqdYbXQH-6gvro/edit?usp=sharing"
-              download={true}
-              className={classes.resume}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>resume</span>
-            </a>{" "}
-            with skills and experience listed.
+            finishing an MSc in Computer Science. My focus is on NLP,
+            recommender systems and cloud development.
           </p>
           <p>
-            At the University of Manchester I collaborate with research teams to
-            develop reliable software and data pipelines. I also contribute to
-            model training at Scale AI and previously built IoT dashboards for
-            Enviroheat. These experiences have strengthened my problem solving
-            skills and attention to detail.
+            I collaborate with research teams at the University of Manchester
+            and help train large language models at Scale AI. Past projects
+            include building IoT dashboards for Enviroheat.
           </p>
           <p>
             Away from work I'm a huge <span className={classes.messi}>Messi </span>
-            fan and love movies and the occasional book. I'm comfortable leading
-            or collaborating in teams and enjoy bringing ideas to life by
-            understanding how each part of a system fits together. I write
-            sometimes—check out some of my{" "}
+            fan, a movie lover and an occasional writer on{" "}
             <a href="https://dev.to/mikey247" className={classes.resume}>
-              <span>articles</span>
+              <span>dev.to</span>
             </a>
           </p>
 
