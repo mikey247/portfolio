@@ -10,36 +10,20 @@ const About = () => {
           <h1>ABOUT ME🙊🙉🙈</h1>
           <hr className={classes.underline} />
           <p>
-            I’m a Software Engineer located in Lagos. I have a serious passion
-            for user-centric design, development and dynamic user experiences on
-            both backend and frontend. Here's my{" "}
-            <a
-              href="https://docs.google.com/document/d/1cfmfENqLZVctN3yGNY52mFLM0Tp-vcqdYbXQH-6gvro/edit?usp=sharing"
-              download={true}
-              className={classes.resume}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>resume</span>
-            </a>{" "}
-            with skills and experience listed.
+            I’m a Software and AI Engineer based in Manchester and currently
+            finishing an MSc in Computer Science. My focus is on NLP,
+            recommender systems and cloud development.
           </p>
           <p>
-            Well-organised person, problem solver, independent employee with
-            high attention to detail.{" "}
-            <span className={classes.messi}>Messi </span>Fan🐐, NBA🏀 and NFL🏈,
-            Indoors person, Love movies🎬 and the occasional book📚. An
-            easy-going guy with management abilities and aspirations.
+            I collaborate with research teams at the University of Manchester
+            and help train large language models at Scale AI. Past projects
+            include building IoT dashboards for Enviroheat.
           </p>
           <p>
-            Absolute Team-player😀(love teams..) also able to work alone to
-            acheive set goals, I like to talk less and listen more and I derive
-            joy and satisfaction from bringing ideas and designs to life, I
-            learn by understanding the system and obsessed with knowing what
-            part is moving the other that way I can easily manipulate the
-            system. I write sometimes, check out some of my{" "}
+            Away from work I'm a huge <span className={classes.messi}>Messi </span>
+            fan, a movie lover and an occasional writer on{" "}
             <a href="https://dev.to/mikey247" className={classes.resume}>
-              <span>articles</span>
+              <span>dev.to</span>
             </a>
           </p>
 

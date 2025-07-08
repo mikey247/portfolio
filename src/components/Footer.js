@@ -16,7 +16,7 @@ const Footer = () => (
 
         <div className={`col-md-12 mt-md-0 mt-3 ${classes.footerDiv}`}>
           <h3 className="text-uppercase">
-            © Copyright 2021. All right reserved
+            © Copyright 2025. All rights reserved
           </h3>
         </div>
 
@@ -31,7 +31,7 @@ const Footer = () => (
               {" "}
               <FaGithub size="1.8rem" />
             </a>
-            <a href="https://wa.me/+2348109867870">
+            <a href="https://wa.me/+447824025518">
               <FaWhatsappSquare size="1.8rem" />{" "}
             </a>
           </div>
