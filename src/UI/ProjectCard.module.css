@@ -6,7 +6,7 @@
 }
 .projectCard a{
     text-decoration: none;
-    color: #00ffff;
+    color: #33a06f;
 }
 .projectCard img{
     width: 28rem;
@@ -22,8 +22,8 @@
 }
 .tools p {
   font-size: 12px;
-  color: #00ffff;
-  border: 1px solid #00ffff;
+  color: #33a06f;
+  border: 1px solid #33a06f;
   padding: 2px;
 }
 
@@ -36,24 +36,19 @@
 
 .projectCardinner {
   margin-top: 4rem;
-  color: #00ffff;
+  color: #33a06f;
+  /* border: 2px solid red; */
   height: 35rem;
-  transition: transform 0.3s;
-  cursor: pointer;
-}
-
-.projectCardinner:hover {
-  transform: scale(1.03);
 }
 .text {
-  color: #00ffff;
+  color: #33a06f;
   padding: 1rem;
   /* padding-left: 1rem; */
   /* border: 2px solid darkblue; */
 }
 .text a {
   text-decoration: none;
-  color: #00ffff;
+  color: #33a06f;
   /* padding-left: 5rem; */
 }
 .text h6 {
@@ -88,8 +83,8 @@
     }
     .tools p{
         font-size: 12px;
-        color: #00ffff;
-        border: 1px solid #00ffff;
+        color: #33a06f;
+        border: 1px solid #33a06f;
         padding: 2px; 
     }
 }

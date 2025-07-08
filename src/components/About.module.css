@@ -12,17 +12,17 @@
   line-height: 1.5rem;
 }
 .aboutText h1 {
-  color: #00ffff;
+  color: #33a06f;
 }
 .magic {
   text-decoration: none;
-  color: #00ffff;
+  color: #33a06f;
   font-size: 1.2rem;
   font-weight: 500;
 }
 .resume {
   text-decoration: none;
-  color: #00ffff;
+  color: #33a06f;
   font-weight: 500;
 }
 .resume:hover,

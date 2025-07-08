@@ -7,7 +7,7 @@
 .contactForm h1,
 .contactForm p {
   text-align: center;
-  color: #00ffff;
+  color: #33a06f;
 }
 /* .underline{
     width: 5rem;
@@ -34,22 +34,22 @@ textarea {
   border-radius: 5px;
 }
 .send {
-  background-color: transparent;
-  color: #00ffff;
-  border: 2px solid #00ffff;
+  background-color: #020a13;
+  color: #33a06f;
+  border: 2px solid #33a06f;
   padding: 10px;
   width: 50%;
   margin: auto;
 }
 .send:hover {
-  background-color: #00ffff;
+  background-color: #33a06f;
   color: white;
 }
 .modal {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #020a13;
 }
 .buttonText {
-  color: #00ffff;
+  color: #33a06f;
   text-align: center;
 }
 
