@@ -1,7 +1,4 @@
-body {
-  background-color: #020a13;
-  color: whitesmoke;
-}
+
 .intro {
   width: 90%;
   margin: 0 auto;
@@ -13,15 +10,15 @@ body {
   width: 30rem;
 }
 .intro h2 {
-  color: #33a06f;
+  color: #00ffff;
   font-size: 2rem;
   margin: 1.5rem 0;
   padding: 1rem 0;
 }
 .intro button {
-  background-color: #020a13;
-  color: #33a06f;
-  border: 2px solid #33a06f;
+  background-color: transparent;
+  color: #00ffff;
+  border: 2px solid #00ffff;
   /* border-radius: 5px; */
   cursor: pointer;
   height: 3rem;
@@ -29,12 +26,18 @@ body {
 }
 
 .intro button:hover {
-  background-color: #33a06f;
+  background-color: #00ffff;
   color: white;
 }
 
 .heroLinks a {
-  color: #33a06f;
+  color: #00ffff;
+}
+
+.tagline {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #00ffff;
 }
 
 .glitch {
