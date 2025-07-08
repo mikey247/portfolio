@@ -11,7 +11,7 @@ const HomePage = () => {
         Mike Umeokoli 👨🏾‍💻
         <span aria-hidden="true"> Mike Umeokoli</span>
       </h1>
-      <h2>Software Engineer</h2>
+      <h2>Research Software Engineer</h2>
       <p className={classes.tagline}>Building the future, one line at a time</p>
       <div className={classes.heroLinks}>
         <a
@@ -25,7 +25,7 @@ const HomePage = () => {
           {" "}
           <FaGithub size="3rem" />
         </a>
-        <a href="https://wa.me/+2348109867870" target="_blank" rel="noreferrer">
+        <a href="https://wa.me/+447824025518" target="_blank" rel="noreferrer">
           <FaWhatsappSquare size="3rem" />{" "}
         </a>
       </div>
