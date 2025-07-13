@@ -23,12 +23,8 @@ const Contact = () => {
         "65Jp6sba8Xy0J_h50"
       )
       .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
+        (result) => {},
+        (error) => {}
       );
 
     form.current.reset();
