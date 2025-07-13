@@ -29,6 +29,7 @@
   cursor: pointer;
   height: 3rem;
   width: 10rem;
+  animation: pulse 2s infinite;
 }
 
 .intro button:hover {
@@ -39,6 +40,7 @@
 .heroLinks a {
   color: #00ffff;
   transition: transform 0.3s ease;
+  animation: float 3s ease-in-out infinite;
 }
 
 .heroLinks a:hover {

@@ -44,11 +44,6 @@ const Contact = () => {
         <div className={classes.contactForm}>
           <h1>Contact Me ✉</h1>
           <hr className={classes.underline} />
-          <p>
-            I’m interested in freelance, junior roles and contract opportunities
-            – especially ambitious or large projects. However, if you have other
-            request or question, don’t hesitate to use the form.
-          </p>
           <form ref={form} action="" onSubmit={sendEmail}>
             <input
               type="text"

@@ -21,6 +21,9 @@
   line-height: 1.5rem;
   animation: slideInLeft 1s ease both;
 }
+.aboutText p {
+  animation: fadeInUp 1s ease both;
+}
 .aboutText h1 {
   color: #00ffff;
 }

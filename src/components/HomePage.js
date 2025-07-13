@@ -7,9 +7,9 @@ const HomePage = () => {
     <div className={classes.intro}>
       <h2>Hi 👋🏾 there, I'm</h2>
       <h1 className={classes.glitch}>
-        <span aria-hidden="true"> Mike Umeokoli</span>
-        Mike Umeokoli 👨🏾‍💻
-        <span aria-hidden="true"> Mike Umeokoli</span>
+        <span aria-hidden="true"> Michael Umeokoli</span>
+        Michael Umeokoli 👨🏾‍💻
+        <span aria-hidden="true"> Michael Umeokoli</span>
       </h1>
       <h2>Software and AI Engineer</h2>
 

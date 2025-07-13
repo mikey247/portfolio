@@ -46,6 +46,7 @@ textarea {
   padding: 10px;
   width: 50%;
   margin: auto;
+  animation: pulse 2s infinite;
 }
 
 .send:hover {
