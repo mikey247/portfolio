@@ -26,7 +26,7 @@ const About = () => {
               href="https://dev.to/mikey247"
               className={classes.resume}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <span>dev.to</span>
             </a>

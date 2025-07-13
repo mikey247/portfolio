@@ -27,15 +27,23 @@ const Footer = () => (
             <a
               href="https://linkedin.com/in/michael-umeokoli-8780"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <FaLinkedin size="1.8rem" />
             </a>{" "}
-            <a href="https://github.com/mikey247" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/mikey247"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {" "}
               <FaGithub size="1.8rem" />
             </a>
-            <a href="https://wa.me/+447824025518" target="_blank" rel="noreferrer">
+            <a
+              href="https://wa.me/+447824025518"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaWhatsappSquare size="1.8rem" />{" "}
             </a>
           </div>

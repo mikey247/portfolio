@@ -55,7 +55,7 @@ const NavigationBar = () => {
               <Nav.Link
                 href="https://docs.google.com/document/d/1UYpYT6i4p2alhmIEaGkAQbKcPBktZ3MYsd7b2EGPlIo/edit?usp=sharing"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <h3>Resume </h3>
               </Nav.Link>
