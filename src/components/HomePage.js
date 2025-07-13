@@ -1,15 +1,18 @@
 import classes from "./HomePage.module.css";
 import { HashLink } from "react-router-hash-link";
 import { FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
+import useInView from "../hooks/useInView";
 
 const HomePage = () => {
+  const [ref, inView] = useInView({ threshold: 0.2 });
+
   return (
-    <div className={classes.intro}>
+    <div ref={ref} className={`${classes.intro} ${inView ? "scroll-show" : "scroll-hidden"}`}>
       <h2>Hi 👋🏾 there, I'm</h2>
       <h1 className={classes.glitch}>
-        <span aria-hidden="true"> Mike Umeokoli</span>
-        Mike Umeokoli 👨🏾‍💻
-        <span aria-hidden="true"> Mike Umeokoli</span>
+        <span aria-hidden="true"> Michael Umeokoli</span>
+        Michael Umeokoli 👨🏾‍💻
+        <span aria-hidden="true"> Michael Umeokoli</span>
       </h1>
       <h2>Software and AI Engineer</h2>
 

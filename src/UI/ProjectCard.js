@@ -1,9 +1,11 @@
 import classes from "./ProjectCard.module.css";
 // import Col from 'react-bootstrap/Col'
 import Card from "react-bootstrap/Card";
+import useInView from "../hooks/useInView";
 // import { Link } from "react-router-dom";
 
 const ProjectCard = (props) => {
+  const [ref, inView] = useInView({ threshold: 0.2 });
   // console.log(props.image);
   return (
     // <div className={classes.projectCardContainer}>
@@ -26,7 +28,10 @@ const ProjectCard = (props) => {
     // </div>
 
     // <div className={classes.projectCard}>
-    <Card className={`bg-dark text-white ${classes.projectCardinner}`}>
+    <Card
+      ref={ref}
+      className={`bg-dark text-white ${classes.projectCardinner} ${inView ? "scroll-show" : "scroll-hidden"}`}
+    >
       <Card.Img
         src={`${props.image}`}
         alt="Card image"

@@ -1,5 +1,6 @@
 import classes from "./Footer.module.css";
 import { FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
+import useInView from "../hooks/useInView";
 
 
 import React from "react";
@@ -50,7 +51,8 @@ const Footer = () => (
         </div>
       </div>
     </div>
-  </footer>
-);
+    </footer>
+  );
+};
 
 export default Footer;
