@@ -3,9 +3,11 @@ import { useRef, useState } from "react";
 import classes from "./Contact.module.css";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
+import useInView from "../hooks/useInView";
 
 const Contact = () => {
   const [show, setShow] = useState(false);
+  const [ref, inView] = useInView({ threshold: 0.2 });
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -40,7 +42,11 @@ const Contact = () => {
 
   if (!show) {
     return (
-      <div className={classes.contactContainer} id="contact">
+      <div
+        ref={ref}
+        className={`${classes.contactContainer} ${inView ? "scroll-show" : "scroll-hidden"}`}
+        id="contact"
+      >
         <div className={classes.contactForm}>
           <h1>Contact Me ✉</h1>
           <hr className={classes.underline} />

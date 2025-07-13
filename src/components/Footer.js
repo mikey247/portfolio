@@ -1,11 +1,17 @@
 import classes from "./Footer.module.css";
 import { FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
+import useInView from "../hooks/useInView";
 
 
 import React from "react";
 
-const Footer = () => (
-  <footer className={classes.footer}>
+const Footer = () => {
+  const [ref, inView] = useInView({ threshold: 0.2 });
+  return (
+    <footer
+      ref={ref}
+      className={`${classes.footer} ${inView ? "scroll-show" : "scroll-hidden"}`}
+    >
     <div className={classes.footerDiv}>
       <h3>Mikey24/7</h3>
     </div>
@@ -23,7 +29,8 @@ const Footer = () => (
         <FaWhatsappSquare size="1.8rem" />
       </a>
     </div>
-  </footer>
-);
+    </footer>
+  );
+};
 
 export default Footer;
