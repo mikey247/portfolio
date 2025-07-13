@@ -1,10 +1,16 @@
 
 .intro {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 5rem;
-  /* display: flex;
-  justify-content: space-between; */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite, fadeInUp 1s ease-out;
 }
 .intro div {
   width: 30rem;
@@ -32,6 +38,11 @@
 
 .heroLinks a {
   color: #00ffff;
+  transition: transform 0.3s ease;
+}
+
+.heroLinks a:hover {
+  transform: scale(1.2);
 }
 
 .tagline {
