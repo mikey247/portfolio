@@ -4,11 +4,10 @@ import Footer from "./components/Footer";
 import HomePage from "./components/HomePage";
 // import NavigationBar from "./components/NavBar";
 import Projects from "./components/Projects";
-import classes from "./components/HomePage.module.css";
 
 function App() {
   return (
-    <div className={classes.body}>
+    <div>
       {/* <NavigationBar /> */}
       <HomePage />
       <About />
