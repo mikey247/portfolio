@@ -38,7 +38,7 @@ const ProjectCard = (props) => {
         className={classes.cardImage}
       />
       <div className={classes.text}>
-        <a href={props.link} target="_blank" rel="noreferrer">
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
           <Card.ImgOverlay opacity={1}></Card.ImgOverlay>
         </a>
         <h3>{props.title}</h3>
