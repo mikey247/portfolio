@@ -24,14 +24,18 @@ const Footer = () => (
 
         <div className={`col-md-12 mt-md-0 mt-3 ${classes.footerDiv}`}>
           <div className={classes.linksDiv}>
-            <a href="https://linkedin.com/in/michael-umeokoli-8780">
+            <a
+              href="https://linkedin.com/in/michael-umeokoli-8780"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin size="1.8rem" />
             </a>{" "}
-            <a href="https://github.com/mikey247">
+            <a href="https://github.com/mikey247" target="_blank" rel="noreferrer">
               {" "}
               <FaGithub size="1.8rem" />
             </a>
-            <a href="https://wa.me/+447824025518">
+            <a href="https://wa.me/+447824025518" target="_blank" rel="noreferrer">
               <FaWhatsappSquare size="1.8rem" />{" "}
             </a>
           </div>

@@ -22,7 +22,12 @@ const About = () => {
           <p>
             Away from work I'm a huge <span className={classes.messi}>Messi </span>
             fan, a movie lover and an occasional writer on{" "}
-            <a href="https://dev.to/mikey247" className={classes.resume}>
+            <a
+              href="https://dev.to/mikey247"
+              className={classes.resume}
+              target="_blank"
+              rel="noreferrer"
+            >
               <span>dev.to</span>
             </a>
           </p>
