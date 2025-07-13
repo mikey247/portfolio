@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <div id="projects" className={classes.projectsSection}>
       <Container>
         <h1 className={classes.projects}>Projects</h1>
         <Row xxl={12} xl={12}>

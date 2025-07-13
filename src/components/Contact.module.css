@@ -1,7 +1,21 @@
 .contactContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.contactForm {
   width: 50%;
-  margin: auto;
-  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 8px;
+  animation: fadeInUp 1s ease both;
 }
 
 .contactForm h1,
@@ -9,12 +23,7 @@
   text-align: center;
   color: #00ffff;
 }
-/* .underline{
-    width: 5rem;
-    height: 0.2rem;
-    background-color: white;
-    text-align: center;
-} */
+
 form {
   padding: 1rem;
 }
@@ -25,14 +34,11 @@ textarea {
   width: 100%;
   margin-top: 1rem;
   padding: 0.5rem;
-  /* padding: .5rem .8rem .5rem .8rem; */
-  /* margin: .9vw 0 ; */
-  /* border:0; */
-  /* border-radius: 5px; */
   font-size: 20px;
   border: none;
   border-radius: 5px;
 }
+
 .send {
   background-color: transparent;
   color: #00ffff;
@@ -41,13 +47,16 @@ textarea {
   width: 50%;
   margin: auto;
 }
+
 .send:hover {
   background-color: #00ffff;
   color: white;
 }
+
 .modal {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .buttonText {
   color: #00ffff;
   text-align: center;
@@ -57,52 +66,21 @@ textarea {
   html {
     font-size: 10px;
   }
-  .contactContainer {
+  .contactForm {
     width: 70%;
-  }
-
-  .contactForm p {
-    font-size: 16px;
   }
 }
 
 @media (max-width: 426px) {
-  .contactContainer {
+  .contactForm {
     width: 95%;
   }
-
-  form input {
-    height: 3rem;
-    /* font-size: 2px; */
-  }
-  input[type="text"] {
-    font-size: 9px;
-  }
-  input[type="email"] {
-    font-size: 9px;
-  }
-
+  input[type="text"],
+  input[type="email"],
   textarea {
-    font-size: 9px;
-  }
-
-  ::placeholder {
-    font-size: 0.8rem;
+    font-size: 14px;
   }
   .send {
-    font-size: 12px;
-    padding-bottom: 2.5rem;
-  }
-  .send input {
-    height: 2.5rem;
-    width: 60%;
-    /* font-size: 1rem; */
-    padding: 2rem;
-  }
-}
-
-@media (max-width: 376px) {
-  .contactContainer {
-    width: 100%;
+    font-size: 14px;
   }
 }

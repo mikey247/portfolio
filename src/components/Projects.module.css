@@ -1,73 +1,27 @@
-/* .projectList{
-    width: 85%;
-    margin: 2rem auto;
-    border: 7px solid green;
-    
-
+.projectsSection {
+  width: 100%;
+  min-height: 100vh;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
-.projectListDiv{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 3rem;
-    border: 5px solid gold;
-    
-} */
+
 .projects {
   text-align: center;
-  margin-top: 5rem;
+  color: #00ffff;
+  margin-bottom: 3rem;
+  animation: fadeInUp 1s ease both;
+}
+
+.projectItems {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
-  /* .projectItems {
-    margin-bottom: 15rem;
-  } */
-}
-
-/* @media (max-width: 768px) {
-    .projectList{
-        width: 70%;
-    }
-    .projectListDiv{
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 426px) {
-    .projectList{
-        width: 95%;
-    }
-} */
-/* 
-.projects{
-    text-align: center;
-    color: #00ffff;
-}
-
-.underline{
-    width: 5rem;
-    height: 0.2rem;
-    background-color: white;
-}
-
-
-@media (max-width: 426px) {
-    html {
-      font-size: 10px;
-    }
-    
-    .projectList{
-        display: block;
-    }
-
-    .projectListDiv{
-        width: 90%;
-        margin: auto;
-
-    }
-}
-
-@media (max-width: 320px) {
-  html{
-      font-size: 8px;
+  html {
+    font-size: 10px;
   }
-} */
+}
