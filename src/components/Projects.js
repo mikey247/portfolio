@@ -1,13 +1,19 @@
 import { projects } from "../data";
 import ProjectCard from "../UI/ProjectCard";
 import classes from "./Projects.module.css";
+import useInView from "../hooks/useInView";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
 const Projects = () => {
+  const [ref, inView] = useInView({ threshold: 0.2 });
   return (
-    <div id="projects">
+    <div
+      ref={ref}
+      id="projects"
+      className={`${classes.projectsSection} ${inView ? "scroll-show" : "scroll-hidden"}`}
+    >
       <Container>
         <h1 className={classes.projects}>Projects</h1>
         <Row xxl={12} xl={12}>

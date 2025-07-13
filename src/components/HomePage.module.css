@@ -1,10 +1,16 @@
 
 .intro {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 5rem;
-  /* display: flex;
-  justify-content: space-between; */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 .intro div {
   width: 30rem;
@@ -23,6 +29,7 @@
   cursor: pointer;
   height: 3rem;
   width: 10rem;
+  animation: pulse 2s infinite;
 }
 
 .intro button:hover {
@@ -32,6 +39,12 @@
 
 .heroLinks a {
   color: #00ffff;
+  transition: transform 0.3s ease;
+  animation: float 3s ease-in-out infinite;
+}
+
+.heroLinks a:hover {
+  transform: scale(1.2);
 }
 
 .tagline {
@@ -50,7 +63,7 @@
     -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
     0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
 
-  animation: glitch 500ms infinite;
+  animation: glitch 500ms infinite, glow 3s ease-in-out infinite;
 }
 
 .glitch span {

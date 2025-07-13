@@ -1,13 +1,23 @@
+.footer {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding: 3rem 0;
+  text-align: center;
+  color: #00ffff;
+}
+
+.footerDiv {
+  margin-bottom: 1rem;
+}
+
 .linksDiv a {
-  /* width: 1rem; */
   text-decoration: none;
   color: #00ffff;
-  margin: 10px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
 }
-footer {
-  color: #00ffff;
-  background-color: #181818;
-}
-.footerDiv {
-  margin-bottom: 2rem;
+
+.linksDiv a:hover {
+  transform: scale(1.3);
 }
